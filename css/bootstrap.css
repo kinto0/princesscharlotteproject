@@ -1183,10 +1183,10 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  font-family: 'Dancing Script', cursive;
   font-weight: 500;
   line-height: 1.1;
-  color: inherit;
+  color: #9C27B0;
 }
 h1 small,
 h2 small,
@@ -3115,26 +3115,26 @@ fieldset[disabled] .btn-default.focus {
 }
 .btn-primary {
   color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+  background-color: #9C27B0;
+  border-color: #7B1FA2;
 }
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
-  background-color: #286090;
-  border-color: #122b40;
+  background-color: #7B1FA2;
+  border-color: #4A148C;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #286090;
-  border-color: #204d74;
+  background-color: #7B1FA2;
+  border-color: #4A148C;
 }
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #fff;
-  background-color: #286090;
-  border-color: #204d74;
+  background-color: #4A148C;
+  border-color: #4A148C;
 }
 .btn-primary:active:hover,
 .btn-primary.active:hover,
@@ -3146,8 +3146,8 @@ fieldset[disabled] .btn-default.focus {
 .btn-primary.active.focus,
 .open > .dropdown-toggle.btn-primary.focus {
   color: #fff;
-  background-color: #204d74;
-  border-color: #122b40;
+  background-color: #4A148C;
+  border-color: #4A148C;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -4212,6 +4212,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-fixed-bottom .navbar-collapse {
     padding-right: 0;
     padding-left: 0;
+    margin: 0px;
   }
 }
 .navbar-fixed-top .navbar-collapse,
@@ -4958,13 +4959,13 @@ a.badge:focus {
 .jumbotron {
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   color: inherit;
   background-color: #eee;
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  color: inherit;
+  color: #9C27B0;
 }
 .jumbotron p {
   margin-bottom: 15px;
