@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+    <link rel="icon" href="favicon.ico">
 
     <title>The Princess Charlotte Project</title>
 
@@ -26,6 +26,8 @@
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="./index_files/ie-emulation-modes-warning.js"></script>
 
+
+
     <!-- Fonts -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Dancing+Script:700' rel='stylesheet' type='text/css'>
@@ -36,9 +38,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-
-  <body><div id="shifty-spritz" style="display: none;" tabindex="1"><div id="words-shifty"><div id="countdown-shifty" style="font-size: 25px; height: 50px; line-height: 50px; font-weight: bold; font-family: &quot;droid sans&quot;;"></div><div id="left-shifty" style="font-size: 25px; height: 50px; line-height: 50px; font-weight: bold; font-family: &quot;droid sans&quot;;"></div><div id="center-shifty" style="font-size: 25px; height: 50px; line-height: 50px; font-weight: bold; font-family: &quot;droid sans&quot;; color: rgb(250, 61, 61);"></div><div id="right-shifty" style="font-size: 25px; height: 50px; line-height: 50px; font-weight: bold; font-family: &quot;droid sans&quot;;"></div><span id="clear-shifty"></span></div><div id="controls-shifty"><i id="pause-play-shifty" class="fa fa-pause left-shifty"></i><i id="close-shifty" class="fa fa-times right-shifty"></i><div id="progress-bar-shifty"><div id="progress-shifty"></div><div id="seek-shifty"></div></div></div></div>
-
+  <body id="body">
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -48,31 +48,28 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://getbootstrap.com/examples/jumbotron/#">The Princess Charlotte Project</a>
+          <a class="navbar-brand" href="index.html#">The Princess Charlotte Project</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
           </form>
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
 
+    <center>
     <div class="bg" id="bg-1">
+      <img class="mySlides" src="./images/charlotte1.jpg">
+      <img class="mySlides" src="./images/charlotte2.jpg">
     </div>
+    </center>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
         <h1>The Princess Charlotte Project</h1>
         <p>The Princess Charlotte project is an organization started in memory of a special girl named Charlotte O'Shea who lived and loved being a princess in her six years of life. In her memory we collect new dresses, shoes, wands, princess accessories and super hero costumes and distribute them to girls and boys in the waiting room at hospitals. </p>
-        <p><a class="btn btn-primary btn-lg" href="http://getbootstrap.com/examples/jumbotron/#" role="button">Learn more »</a></p>
+        <p><a class="btn btn-primary btn-lg" href="index.html#row" role="button">Take Action »</a></p>
       </div>
     </div>
 
@@ -82,7 +79,7 @@
 
     <center>
       <!-- Example row of columns -->
-      <div class="row">
+      <div class="row" id="row">
         <div class="col-md-4">
 
         <span class="fa-stack fa-3x">
@@ -92,7 +89,7 @@
 
           <h2>Donate</h2>
           <p>The Princess Charlotte Project thrives off of donations from kind people such as yourself. Please send any donations to 54 Kettle Hole Rd, Bolton MA 01740, or click below to donate money. </p>
-          <p><a class="btn btn-default" href="http://getbootstrap.com/examples/jumbotron/#" role="button">Donate »</a></p>
+          <p><a class="btn btn-default" href="index.html#donate" role="button">Donate »</a></p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-3x">
@@ -112,16 +109,35 @@
 
           <h2>About Us</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="http://getbootstrap.com/examples/jumbotron/#" role="button">Learn More »</a></p>
+          <p><a class="btn btn-default" href="index.html#about" role="button">Learn More »</a></p>
         </div>
       </div>
 </center>
-      <hr>
-
-      <footer>
-        <p>© 2016 Princess Charlotte Project, Inc.</p>
-      </footer>
     </div> <!-- /container -->
+
+    <div class="container" id="gallery">
+        <h1>Gallery</h1>
+        <iframe src="http://albumizr.com/a/8Rw" scrolling="no" frameborder="0" allowfullscreen width="100%" height="400"></iframe>
+    </div>
+
+
+
+
+    <div class="container" id="about">
+        <h1>About us</h1>
+        <p> This is where the long definition of the charity will go. Maybe there could be a picture of the founder. 
+    </div>
+
+
+    <div class="container" id="donate">
+        <h1>Donate</h1>
+        <p> Donations help a lot. Why you should donate. Please fill out a form/email janet/do something and send any donations to 54 Kettle Hole Rd, Bolton MA 01740, or click HERE to donate money. 
+    </div>
+   <hr>
+
+   <footer class="container">
+     <p>© 2016 Princess Charlotte Project, Inc. <br>Social media should be linked here. </p>
+   </footer>
 
 
     <!-- Bootstrap core JavaScript
@@ -132,6 +148,10 @@
     <script src="./index_files/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./index_files/ie10-viewport-bug-workaround.js"></script>
+
+        <!-- Script for slideshow of pics -->
+    <script src="./js/slideshow.js"></script>
+
   
 
 <div id="dhcljpmipkhnafolmnlaclnnmggjdfgh" data-version="1.0.0.3" style="display: none;"></div></body></html>

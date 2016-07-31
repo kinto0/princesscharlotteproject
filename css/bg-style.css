@@ -1,25 +1,30 @@
-.bg{
+/*.bg{
 	min-height: 70vh;
-	 /* fix background */
-  	background-attachment: fixed;
-  	/* center it */
+
+		background-attachment: fixed;
   	background-position: center center;
-	 /* Scale it nicely to the element */
-	 background-size: cover;
+	background-size: cover;
 
 	 background-repeat:no-repeat;
 
 	 opacity:65%;
 
-	 /* just make it look a bit better ;) */
 	 &:nth-child(2n) {
 	 	box-shadow: inset 0 0 1em #111;
 	 }
-}
 
-#bg-1{
+}*/
+
+/*#bg-1{
 	background-image: url(
-    	../images/charlotte1.jpg
+    	../images/charlotte2-wide.jpg
     );
+}*/
+
+.bg{
+	background: url("../images/background.png") repeat;
 }
 
+.mySlides{
+	height:60vh;
+}
