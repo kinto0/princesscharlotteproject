@@ -26,6 +26,8 @@
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="./index_files/ie-emulation-modes-warning.js"></script>
 
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 
     <!-- Fonts -->
@@ -51,7 +53,15 @@
           <a class="navbar-brand" href="index.html#">The Princess Charlotte Project</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right">
+          <form class="navbar-right">
+            <ul class="nav navbar-nav">
+              <li>
+                <a href="about">Who We Are</a>
+              </li>
+              <li>
+                <a href="donate">Donate</a>
+              </li>
+            </ul>
           </form>
         </div><!--/.navbar-collapse -->
       </div>
@@ -73,11 +83,15 @@
       </div>
     </div>
 
+    <div class="container" id="gallery">
+        <h1>Gallery</h1>
+        <iframe src="https://albumizr.com/a/8Rw" scrolling="yes" frameborder="0" allowfullscreen width="100%" height="500px"></iframe>
+    </div>
 
-
-    <div class="container">
-
+    <div class="jumbotron">
+    <div class="container" id="action">
     <center>
+      <h1>Take Action</h1>
       <!-- Example row of columns -->
       <div class="row" id="row">
         <div class="col-md-4">
@@ -89,7 +103,7 @@
 
           <h2>Donate</h2>
           <p>The Princess Charlotte Project thrives off of donations from kind people such as yourself. Please send any donations to 54 Kettle Hole Rd, Bolton MA 01740, or click below to donate money. </p>
-          <p><a class="btn btn-default" href="index.html#donate" role="button">Donate »</a></p>
+          <p><a class="btn btn-default" href="https://www.paypal.com/us/webapps/mpp/donations?&PID1=szw7w7v2I|dc;98595387368;%2Bpaypal%20for%20%2Bnon%20profit;b;;eu84e2fpi0;&kw=%2Bpaypal%20for%20%2Bnon%20profit&adgroup=TM-SMB+-+PayPal+-+Non+Profits+%28e%29&creative=98595387368&matchtype=b&PID2=zw7w7v2I&network=g&adposition=1t1&target=&devicemodel=&campaign=TM-SMB+-+PayPal+Industry+Solutions&adtype=&geo_region=NA&geo_country=US&ct=SMB&act=PayPal+Joint+Google&obj=Acquisition&ch=SEM&tt=TM&mv=google&feeditemid=&campaignid=257552288&adgroupid=23276168528&loc_physical_ms=9001780&loc_interest_ms=&targetid=kwd-167241463448&slid=&gclid=CjwKEAjw26C9BRCOrKeYgJH17kcSJACb-HNAoPuU5YzmSU0uhyjLtk5dLU2rjfr6T2_qhswdF1AIyRoCL_Tw_wcB&mpch=ads&rftp=4&srce=cnvr&ercc=27722-205546-2056-1&spid=576503356059157880" role="button">Donate »</a></p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-3x">
@@ -107,23 +121,20 @@
             <i class="fa fa-heart fa-stack-1x fa-inverse"></i>
           </span>
 
-          <h2>About Us</h2>
+          <h2>Learn More</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a class="btn btn-default" href="index.html#about" role="button">Learn More »</a></p>
         </div>
       </div>
 </center>
     </div> <!-- /container -->
-
-    <div class="container" id="gallery">
-        <h1>Gallery</h1>
-        <iframe src="https://albumizr.com/a/8Rw" scrolling="no" frameborder="0" allowfullscreen width="100%" height="400"></iframe>
-    </div>
+</div> <!--/jumbotron -->
 
 
 
 
-    <div class="container" id="about">
+
+<!--     <div class="container" id="about">
         <h1>About us</h1>
         <p> This is where the long definition of the charity will go. Maybe there could be a picture of the founder. 
     </div>
@@ -134,11 +145,12 @@
         <p> Donations help a lot. Why you should donate. Please fill out a form/email janet/do something and send any donations to 54 Kettle Hole Rd, Bolton MA 01740, or click HERE to donate money. 
     </div>
    <hr>
-
+ -->
+ <div class="jumbotron white">
    <footer class="container">
-     <p>© 2016 Princess Charlotte Project, Inc. <br>Social media should be linked here. </p>
+     <p>© 2016 Princess Charlotte Project, Inc. <span class="pull-right"> Social Media should go here </span></p>
    </footer>
-
+</div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -148,6 +160,9 @@
     <script src="./index_files/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./index_files/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- script for navbar resize on scroll -->
+    <script src="./js/navbar.js"></script>
 
         <!-- Script for slideshow of pics -->
     <script src="./js/slideshow.js"></script>

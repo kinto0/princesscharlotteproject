@@ -11,6 +11,7 @@ html {
 }
 body {
   margin: 0;
+  background-color: #9C27B0;
 }
 article,
 aside,
@@ -4164,8 +4165,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar {
   position: relative;
-  min-height: 50px;
-  margin-bottom: 20px;
+  min-height: 35px;
+  padding: 10px;
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
@@ -4273,8 +4274,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
-  height: 50px;
-  padding: 15px 15px;
+  height: 30px;
+  padding: 10px 10px;
   font-size: 18px;
   line-height: 20px;
 }
@@ -4961,6 +4962,9 @@ a.badge:focus {
   margin-bottom: 0px;
   color: inherit;
   background-color: #eee;
+}
+.white{
+  background-color:#ffffff;
 }
 .jumbotron h1,
 .jumbotron .h1 {
