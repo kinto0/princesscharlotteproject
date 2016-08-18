@@ -1,26 +1,3 @@
-/*.bg{
-	min-height: 70vh;
-
-		background-attachment: fixed;
-  	background-position: center center;
-	background-size: cover;
-
-	 background-repeat:no-repeat;
-
-	 opacity:65%;
-
-	 &:nth-child(2n) {
-	 	box-shadow: inset 0 0 1em #111;
-	 }
-
-}*/
-
-/*#bg-1{
-	background-image: url(
-    	../images/charlotte2-wide.jpg
-    );
-}*/
-
 .bg{
 /*	background: url("../images/background.png") repeat;
 */
@@ -49,3 +26,21 @@ footer {
 	position:relative;
 }
 
+
+#action{
+	height:550;
+}
+
+.fadein{
+   transition: opacity .5s ease-in-out, background .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out, background .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out, background .5s ease-in-out;
+
+   padding-top:10px;
+   padding-bottom:10px;
+
+}
+
+.fadein:hover {
+      background: #ddd;
+ }

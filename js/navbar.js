@@ -4,6 +4,12 @@ $(window).scroll(function() {
   } else {
     $('nav').css({"padding": "10px", "background-color": "rgba(34, 34, 34, 1"});
   }
+
+  if($(document).scrollTop() > 1050){
+  	$('.fadein').css('opacity', '1');
+  } else{
+  	$('.fadein').css('opacity', '0');
+  }
 });
 
 $('nav').hover(function(){
