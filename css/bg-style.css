@@ -1,8 +1,13 @@
 .bg{
 /*	background: url("../images/background.png") repeat;
 */
-	background-color: #9C27B0;
-	}
+/*	background-color: #9C27B0;*/
+    background: #9C27B0; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#222222, #9C27B0); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#222222, #9C27B0); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#222222, #9C27B0); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#222222, #9C27B0); /* Standard syntax */	
+}
 
 .mySlides{
 	height:60vh;
@@ -44,3 +49,13 @@ footer {
 .fadein:hover {
       background: #ddd;
  }
+
+div.transbox {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: #222222;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
