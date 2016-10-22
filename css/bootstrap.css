@@ -4965,6 +4965,9 @@ a.badge:focus {
 .white{
   background-color:#ffffff;
 }
+.purple{
+  background-color: #D500F9;
+}
 .jumbotron h1,
 .jumbotron .h1 {
   color: #9C27B0;
